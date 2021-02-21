@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+</head>
+<div class="welcome">
+  <a href="main.html">CART</a>
+  <a href="#">CONTACT</a>
+  <a href="index.html">SIGNUP</a>
+  <a href="main.html">SHOP</a>
+  <a href="welcome.html">HOME</a>
+
+</div>
+
+<body onload="getdata()">
+
+    <div class="navbar">
+        <div class="company">
+            <a href="">ECLECTEES <sup>co</sup></a>
+
+        </div>
+
+        <div class="basket">
+            <i class="fas fa-shopping-cart fa-lg"></i>
+            <span id="navcount">
+                CheckoutCount
+            </span>
+            <span id="navtotal">
+            </span>
+        </div>
+    </div>
+
+
+
+    <div class="img" id="img">
+        <img src="https://st4.depositphotos.com/7341970/20675/v/1600/depositphotos_206750320-stock-illustration-online-shopping-app-gifts-shopping.jpg"
+            alt="Shopping Image" width="100%">
+    </div>
+
+    <div class="shoppingArea">
+
+        <div class="container">
+
+            <div class="shoppingitems" id="shoppingitems">
+                <div id="itemLists">
+
+                </div>
+                <div class="sortby">
+                    <select id="sortby" class="sort">
+                        <option value="1">Price Low - High</option>
+                        <option value="2">Price High - Low</option>
+                        <option value="3">Title A - Z</option>
+                        <option value="4">Title Z - A</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="shoppingcartcard">
+                <div class="CheckoutCount">
+                  <h3>CART<span id="CheckoutCount"></span>
+                    </h3>
+                </div>
+                <div class="checkout">
+                    <ul id="cartItems"></ul>
+                </div>
+                <div class="subtotal">Subtotal
+                    <span id="subtottal">£</span>
+                </div>
+                <div class="buynow">
+                  <a href="checkout.html" style="text-decoration: none;"><button class="button"><span><b>BuyNow</b></span></button></a>
+                  </div>
+            </div>
+        </div>
+
+
+
+
+
+        <footer>
+            <button class="linkbtn">
+                ECLECTEES <sup>co</sup>
+            </button>
+
+            <ul class="footerlinks">
+                <li class="footerlinks"><a href="">Terms &amp; Conditions</a> | </li>
+                <li class="footerlinks"><a href="">Privacy Policy</a> | </li>
+                <li class="footerlinks"><a href="">Contact Us</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+<script src="main.js">
+</script>
+
+</html>
